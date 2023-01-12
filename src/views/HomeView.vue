@@ -3,24 +3,16 @@
   <title>Portfolio</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+  
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="shortcut icon" href="https://i.postimg.cc/4NhTzjcV/smiley-PNG10.png" type="image/x-icon">
   
-  <link rel="stylesheet" href="./styles/styles.css">
-
-
-</head>
-
-
-
-  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+ </head>
+ <!-- Icon Bar (Sidebar - hidden on small screens) -->
   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner -->
-    <img src="https://i.postimg.cc/0j6Ss9NY/mr-robot.jpg" class="mrrobot" style="width:100% 
-    ">
+    <img src="https://i.postimg.cc/0j6Ss9NY/mr-robot.jpg" class="mrrobot" style="width:100% ">
 
 
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
@@ -74,20 +66,10 @@
     <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
       <h3>Im a </h3>
       <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Moegamad Faeez Miller</h1>
-       
-      
-     
-      
       <img src="https://i.postimg.cc/wMyzQmwh/33f78851-dc97-4d4d-8b3e-7801158d376a.jpg" alt="Avatar" class="picture"
         style="height: 550px; width: 550px;">
-       
     </header>
 
-
-   
-    
-
-    
     <div class="-padding-64 w3-content w3-text-light-grey" id="about">
     </div>
     <h2 class="w3-padding-16 w3-text-light-grey">About</h2>
@@ -136,17 +118,6 @@
         Happy Clients
       </div>
       <br>
-
-
-      <!-- <a href="./assets/resume/Resume.png">
-        <button class="w3-button w3-light-grey w3-padding-large w3-section">
-          <i class="fa fa-download"></i>
-          Download Resume
-        </button>
-      </a> -->
-
-
- 
       <br>
       <br>
       <br>
@@ -154,9 +125,8 @@
     </div>
       <h2 class="w3-padding-16 w3-text-light-grey">Testimonials</h2>
       <hr style="width:155px" class="w3-opacity">
-
-
-
+      
+      
 
           <img
           src="https://i.postimg.cc/kGsfxbhN/profile-1.jpg"
@@ -202,7 +172,7 @@
     <h2 class="w3-padding-16 w3-text-light-grey">Projects</h2>
     <hr style="width:120px" class="w3-opacity">
            
-            <div class="row">
+    <div class="row">
               
               <div class="col">
                 <div class="card bg-dark text-white" style="width: 18rem ;">
@@ -407,8 +377,8 @@
 
 
 
-
-
+<br>
+<br>
               <!-- Contact Section -->
               <div id="contact">
                 
@@ -455,6 +425,13 @@
           </template>
 
   <style>
+  body {
+  background-color: #100e17;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
   .mrrobot{
     height: 235px;
   }
